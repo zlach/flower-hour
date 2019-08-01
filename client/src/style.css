@@ -1,0 +1,104 @@
+body {
+    font-family: 'Tangerine', cursive;
+}
+
+#namer-button {
+    display: inline-block;
+    margin: 0px;
+    vertical-align: bottom;
+    padding: 10px;
+    font-family: inherit;
+    font-size: 30px;
+    text-decoration: none;
+    border: 1px solid rosybrown;
+    background-color: rosybrown;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#namer-button:focus {
+    outline: none;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 60px;
+    margin: 0px;
+}
+h2 {
+    font-size: 40px;
+}
+
+#flower-form {
+    display: inline-flex;
+}
+
+#flower-namer {
+    margin-left: 20px;
+    width: 170px;
+    font-size: 30px;
+    height: 50px;
+}
+
+#flowers {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+
+.flower {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+.petal-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.middle {
+    display: flex;
+}
+.pollen {
+    background-color: #C56329;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 28px;
+}
+.text-box {
+    height: 100px;
+    width: 100px;
+    resize: none;
+    outline: none;
+}
+
+.stem {
+    height: 300px;
+    width: 20px;
+    background-color: #879050;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pick {
+    text-decoration: none;
+    border: none;
+    color: black;
+    background-color: #879050;
+    padding: 0px;
+    margin: 0px;
+    font-size: 42px;
+    cursor: pointer;
+}
+
+.pick:focus {
+    outline: none;
+}
